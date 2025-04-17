@@ -4,7 +4,6 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { getProductBySlug } from "@/lib/actions/product-actions";
-import { Divide } from "lucide-react";
 import { notFound } from "next/navigation";
 
 const ProductDetailPage = async (props: {
