@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 !!!Notes: If you are facing neondatabase connection issue, please note @prisma/client and prisma, ws version
 
+## local develop command
+
+```bash
+1. npx tsx .\db\seed.ts
+
+2. npx prisma generate
+
+3. npx prisma migrate dev --name ${your descirption}
+
+```
+
 ## Getting Started
 
 First, run the development server:
