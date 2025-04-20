@@ -11,6 +11,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 3. npx prisma migrate dev --name ${your descirption}
 
+4. npx shadcn@latest add button
+
 ```
 
 ## Getting Started
